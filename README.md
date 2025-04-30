@@ -111,9 +111,10 @@ Press Enter.
 
 ### 📥 B. Receive the Translated Response
 
-Still inside Kafka container:
+In another terminal:
 
 ```bash
+docker exec -it kafka bash
 kafka-console-consumer --topic translation_responses --from-beginning --bootstrap-server localhost:9092
 ```
 
