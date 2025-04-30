@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+aiokafka
+httpx  # for calling real Gemini API if needed
