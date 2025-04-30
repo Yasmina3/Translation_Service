@@ -1,9 +1,5 @@
 # Translation_Service
-Absolutely! Here's a **fully copy-paste ready `README.md` section**. Just paste it into your `.md` file — it’s markdown-formatted, clean, and professional:
 
----
-
-```markdown
 # 🚀 How to Run the Translation Microservice
 
 This microservice listens to Kafka messages requesting title translations (EN ➝ ES), calls the Gemini API, and returns the translated title via Kafka.
@@ -141,10 +137,3 @@ python3 translation_worker.py
 
 ---
 
-## 🧹 Troubleshooting
-
-| Problem                           | Solution                                        |
-|----------------------------------|-------------------------------------------------|
-| Port 9092 already in use         | `sudo lsof -i :9092` then `sudo kill -9 <PID>`  |
-| LEADER_NOT_AVAILABLE warning     | Wait 5s or send a message to create the topic   |
-| Unicode characters escaped (`\u`) | Output is valid — decode or use `.strip()`     |
